@@ -12,11 +12,17 @@
     "@emailjs/browser": "^3.10.0",
     "@heroicons/react": "^2.0.13",
     "@next/font": "13.1.1",
+    "lightbox.js-react": "^0.2.9",
+    "lightgallery": "^2.7.0",
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
-    "sweetalert2": "^11.6.16"
+    "react-photo-album": "^2.0.0",
+    "simple-react-lightbox": "^3.6.9-0",
+    "sweetalert2": "^11.6.16",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "yet-another-react-lightbox": "^2.2.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
