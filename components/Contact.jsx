@@ -41,7 +41,7 @@ const Contact = () => {
       <div className="max-w-full mt-8 lg:mx-6" id="contact">
         <div className="w-full mx-auto text-center font-bold text-4xl pt-32 mb-12">Contact me</div>
         <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-xl shadow-2xl lg:max-w-xl shadow-deep-purple-accent-400/50">
-          <h1 className="text-lg font-medium text-deep-purple-accent-400 text-center">What do you want to ask me?</h1>
+          {/* <h1 className="text-lg font-medium text-deep-purple-accent-400 text-center">What do you want to ask me?</h1> */}
 
           <form className="mt-6" ref={form} onSubmit={sendEmail}>
             <div className="flex-1">
@@ -79,9 +79,9 @@ const Contact = () => {
             <button
               type="submit"
               value="Send"
-              className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-deep-purple-accent-400 rounded-xl focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
+              className="w-full px-6 py-3 mt-6 text-md font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-deep-purple-accent-400 rounded-full focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
             >
-              get in touch
+              Kirim
             </button>
           </form>
         </div>
