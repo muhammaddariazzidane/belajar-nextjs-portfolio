@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:18.2.0"],\
             ["react-icons", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:4.7.1"],\
+            ["sweetalert2", "npm:11.6.16"],\
             ["tailwindcss", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:3.2.4"]\
           ],\
           "linkType": "SOFT"\
@@ -1433,6 +1434,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:18.2.0"],\
             ["react-icons", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:4.7.1"],\
+            ["sweetalert2", "npm:11.6.16"],\
             ["tailwindcss", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:3.2.4"]\
           ],\
           "linkType": "SOFT"\
@@ -2086,6 +2088,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-53b1e247e6.zip/node_modules/supports-preserve-symlinks-flag/",\
           "packageDependencies": [\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["sweetalert2", [\
+        ["npm:11.6.16", {\
+          "packageLocation": "./.yarn/cache/sweetalert2-npm-11.6.16-57aea5622d-7c68f01215.zip/node_modules/sweetalert2/",\
+          "packageDependencies": [\
+            ["sweetalert2", "npm:11.6.16"]\
           ],\
           "linkType": "HARD"\
         }]\

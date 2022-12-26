@@ -1153,6 +1153,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     react-icons: ^4.7.1
+    sweetalert2: ^11.6.16
     tailwindcss: ^3.2.4
   languageName: unknown
   linkType: soft
@@ -1732,6 +1733,13 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 53b1e247e68e05db7b3808b99b892bd36fb096e6fba213a06da7fab22045e97597db425c724f2bbd6c99a3c295e1e73f3e4de78592289f38431049e1277ca0ae
+  languageName: node
+  linkType: hard
+
+"sweetalert2@npm:^11.6.16":
+  version: 11.6.16
+  resolution: "sweetalert2@npm:11.6.16"
+  checksum: 7c68f01215e6eefee3162859a389a850fab64adcdb3169899a1169e3592dc5e9403e8145f9ff76ba3bc97dd9a07cc5c050fda0451fb191242fa0d1fc7993b33a
   languageName: node
   linkType: hard
 
