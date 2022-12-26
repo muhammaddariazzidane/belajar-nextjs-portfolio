@@ -33,7 +33,7 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="w-full h-64 lg:w-1/2 lg:h-auto">
+      <div className="w-full mt-14 lg:mt-0 h-64 lg:w-1/2 lg:h-auto">
         <Image src="/my.png" className="mx-auto" alt="/" width={300} height={300} />
       </div>
     </div>

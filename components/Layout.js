@@ -12,7 +12,7 @@ export default function Layout(props) {
         <link rel="icon" href={props.icon} />
       </Head>
       <Nav />
-      <div>{props.children}</div>
+      <div className="relative" >{props.children}</div>
     </>
   );
 }
