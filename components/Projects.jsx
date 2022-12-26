@@ -15,11 +15,11 @@ const Projects = () => {
       <div className="flex flex-wrap justify-center gap-6">
         <div className="w-full px-4 lg:w-1/4 ">
           <Link href="https://muhammaddariazzidane.000webhostapp.com/" scroll>
-            <div class="mx-auto hover:cursor-pointer hover:-translate-y-4 overflow-hidden transition-all duration-300 flex  w-full flex-col justify-center bg-white rounded-2xl shadow-deep-purple-accent-400/40 shadow-xl">
-              <img class="aspect-video w-full rounded-t-2xl object-cover object-center" src="/web2.png" />
-              <div class="p-6">
-                <h1 class="text-2xl font-medium text-gray-700 pb-2">Your Heading</h1>
-                <p class="text-gray-500 leading-6">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+            <div className="mx-auto hover:cursor-pointer hover:-translate-y-4 overflow-hidden transition-all duration-300 flex  w-full flex-col justify-center bg-white rounded-2xl shadow-deep-purple-accent-400/40 shadow-xl">
+              <img className="aspect-video w-full rounded-t-2xl object-cover object-center" src="/web2.png" />
+              <div className="p-6">
+                <h1 className="text-2xl font-medium text-gray-700 pb-2">Your Heading</h1>
+                <p className="text-gray-500 leading-6">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
               </div>
               <div className="flex space-x-2 ml-4 mb-5">
                 <Image className="transition-all duration-300 hover:rotate-6" src="/ci.png" alt="/" width={25} height={25} />
@@ -33,11 +33,11 @@ const Projects = () => {
         </div>
         <div className="w-full px-4 lg:w-1/4 ">
           <Link href="https://muhammaddariazzidane.000webhostapp.com/" scroll>
-            <div class="mx-auto hover:cursor-pointer hover:-translate-y-4 transition-all duration-300 flex overflow-hidden flex-col justify-center bg-white rounded-2xl shadow-deep-purple-accent-400/40 shadow-xl">
-              <img class="aspect-video w-full rounded-t-2xl object-cover object-center" src="/webfilm.png" />
-              <div class="p-6">
-                <h1 class="text-2xl font-medium text-gray-700 pb-2">Your Heading</h1>
-                <p class="text-gray-500 leading-6">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+            <div className="mx-auto hover:cursor-pointer hover:-translate-y-4 transition-all duration-300 flex overflow-hidden flex-col justify-center bg-white rounded-2xl shadow-deep-purple-accent-400/40 shadow-xl">
+              <img className="aspect-video w-full rounded-t-2xl object-cover object-center" src="/webfilm.png" />
+              <div className="p-6">
+                <h1 className="text-2xl font-medium text-gray-700 pb-2">Your Heading</h1>
+                <p className="text-gray-500 leading-6">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
               </div>
               <div className="flex space-x-2 ml-7 mb-5">
                 <Image className="transition-all duration-300 hover:rotate-6" src="/next.svg" alt="/" width={40} height={25} />
