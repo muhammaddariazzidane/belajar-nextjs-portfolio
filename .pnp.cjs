@@ -29,6 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@emailjs/browser", "npm:3.10.0"],\
+            ["@heroicons/react", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:2.0.13"],\
             ["@next/font", "npm:13.1.1"],\
             ["autoprefixer", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:10.4.13"],\
             ["next", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:13.1.1"],\
@@ -55,6 +56,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@gar-promisify-npm-1.1.3-ac1a325862-4059f790e2.zip/node_modules/@gar/promisify/",\
           "packageDependencies": [\
             ["@gar/promisify", "npm:1.1.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@heroicons/react", [\
+        ["npm:2.0.13", {\
+          "packageLocation": "./.yarn/cache/@heroicons-react-npm-2.0.13-35b19f9179-f03c393a12.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "npm:2.0.13"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:2.0.13", {\
+          "packageLocation": "./.yarn/__virtual__/@heroicons-react-virtual-4d01d3523a/0/cache/@heroicons-react-npm-2.0.13-35b19f9179-f03c393a12.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:2.0.13"],\
+            ["@types/react", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1402,6 +1425,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["next-portfolio", "workspace:."],\
             ["@emailjs/browser", "npm:3.10.0"],\
+            ["@heroicons/react", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:2.0.13"],\
             ["@next/font", "npm:13.1.1"],\
             ["autoprefixer", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:10.4.13"],\
             ["next", "virtual:17d6a551d27b4d431a9ca3990ec0f5ef3a784d53eded81c29e39f9e5118c37d2e49a16a8bf5b58cadc57075fc793b42501d8201a6872f70d230aa7832473614d#npm:13.1.1"],\
