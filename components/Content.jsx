@@ -9,23 +9,23 @@ const Content = () => {
         <div className="max-w-xl">
           <h5 className="mb-4 text-4xl font-extrabold leading-none">
             Muhammad Dariaz Zidane
-            <br className="hidden md:block" />
-            Front-end web <span className="inline-block text-deep-purple-accent-400">Developer</span>
+            <br />
+            Front-end Web <span className="inline-block text-deep-purple-accent-400">Developer</span>
           </h5>
 
-          <p className="mt-4 text-sm text-gray-500  lg:text-base">Halo👋, saya Zidan, cowok yang suka coding, musik, dan gaming. Selamat datang di situs web pribadi saya</p>
+          <p className="mt-4 text-gray-700">Halo👋, saya Zidan, cowok yang suka coding, musik, dan gaming. Selamat datang di situs web pribadi saya</p>
 
           <div className="flex items-center mt-5 space-x-4">
-            <a href="https://github.com/muhammaddariazzidane" className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+            <a href="https://github.com/muhammaddariazzidane" className="text-black hover:opacity-80 transition-all duration-300 ">
               <FiGithub size={25} />
             </a>
-            <a href="https://www.instagram.com/dzm416/" className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+            <a href="https://www.instagram.com/dzm416/" className="transition-all text-red-700 hover:opacity-80 duration-300 ">
               <FiInstagram size={25} />
             </a>
-            <a href="https://web.facebook.com/m.zidan.186/" className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+            <a href="https://web.facebook.com/m.zidan.186/" className="text-blue-700 hover:opacity-80 transition-all duration-300 ">
               <FiFacebook size={25} />
             </a>
-            <a href="https://www.youtube.com/@zidaneuchiha1554" className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+            <a href="https://www.youtube.com/@zidaneuchiha1554" className="text-red-800 hover:opacity-80  transition-all duration-300 ">
               <FiYoutube size={25} />
             </a>
           </div>

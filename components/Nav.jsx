@@ -62,7 +62,7 @@ const Nav = () => {
         </div>
       </nav>
       <div className={`${shadow ? "fixed" : "hidden"} z-[9999] hover:cursor-pointer bottom-4 right-4`}>
-        <div className="p-3 shadow-xl bg-black rounded-full">
+        <div className="p-2 shadow-xl bg-black rounded-full">
           <a href="#">
             <ChevronDoubleUpIcon className="h-8 w-8 text-white animate-pulse" />
           </a>

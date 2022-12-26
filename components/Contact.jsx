@@ -79,7 +79,7 @@ const Contact = () => {
             <button
               type="submit"
               value="Send"
-              className="w-full px-6 py-3 mt-6 text-md font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-deep-purple-accent-400 rounded-full focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
+              className="w-full px-6 py-3 mt-6 text-md font-medium tracking-wide text-white capitalize transition-all duration-300 transform bg-deep-purple-accent-400 rounded-full focus:outline-none hover:bg-deep-purple-accent-400/80"
             >
               Kirim
             </button>
