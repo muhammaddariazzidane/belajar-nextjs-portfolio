@@ -23,10 +23,10 @@ const Nav = () => {
   return (
     <>
       <nav className={`w-full selection:bg-red-600 selection:text-white z-[9999] bg-white ${shadow ? "shadow-xl transition-all duration-300 ease-in-out" : "transition-all duration-300 ease-in-out"} fixed top-0`}>
-        <div className="container px-8 py-4 mx-auto md:flex md:justify-between md:items-center">
+        <div className="container px-4 py-4 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between">
             <div>
-              <Link  className="text-2xl lg:px-3 font-bold text-gray-800 transition-colors duration-300 transform  lg:text-3xl hover:text-gray-700 " href="/">
+              <Link className="text-2xl lg:px-3 font-bold text-gray-800 transition-colors duration-300 transform  lg:text-3xl hover:text-gray-700 " href="/">
                 Zidane
               </Link>
             </div>
@@ -41,7 +41,7 @@ const Nav = () => {
 
           {/* Mobile Menu open: "block", Menu closed: "hidden" */}
           <div
-            className={`absolute selection:bg-red-600 selection:text-white inset-x-0 z-20 w-full px-8 py-4 transition-all duration-300 ease-in-out bg-white  md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center ${
+            className={`absolute selection:bg-red-600 selection:text-white inset-x-0 z-20 w-full px-4 py-4 transition-all duration-300 ease-in-out bg-white  md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center ${
               isOpen ? "translate-x-0 opacity-100" : "opacity-0 -translate-x-full"
             }`}
           >

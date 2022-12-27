@@ -57,7 +57,7 @@ export default function projects1() {
             </div>
           </div>
           <div>
-            <Image className="object-cover w-full shadow-xl h-56 sm:h-96" src="/web2.png" width={1500} height={500} alt="" />
+            <Image className="object-cover w-full shadow-xl h-56 lg:mt-0 mt-4 sm:h-96" src="/web2.png" width={1500} height={500} alt="" />
           </div>
         </div>
       </div>{" "}
