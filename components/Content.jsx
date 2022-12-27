@@ -13,7 +13,7 @@ const Content = () => {
             Front-end Web <span className="inline-block text-deep-purple-accent-400">Developer</span>
           </h5>
 
-          <p className="mt-4 text-gray-700">Halo👋, saya Zidan, cowok yang suka coding, musik, dan gaming. Selamat datang di situs web pribadi saya</p>
+          <p className="mt-4 text-gray-700">Halo👋, saya Zidan, saya mahasiswa semester 3 di universitas bina sarana informatika karawang yang suka coding, musik, dan bermain game. Selamat datang di situs web pribadi saya</p>
 
           <div className="flex items-center mt-5 space-x-4">
             <a href="https://github.com/muhammaddariazzidane" className="text-black hover:opacity-80 transition-all duration-300 ">

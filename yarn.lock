@@ -1978,6 +1978,7 @@ __metadata:
     next: 13.1.1
     postcss: ^8.4.20
     react: 18.2.0
+    react-awesome-lightbox: ^1.8.1
     react-dom: 18.2.0
     react-icons: ^4.7.1
     react-photo-album: ^2.0.0
@@ -2470,6 +2471,15 @@ __metadata:
   version: 5.1.1
   resolution: "quick-lru@npm:5.1.1"
   checksum: a516faa25574be7947969883e6068dbe4aa19e8ef8e8e0fd96cddd6d36485e9106d85c0041a27153286b0770b381328f4072aa40d3b18a19f5f7d2b78b94b5ed
+  languageName: node
+  linkType: hard
+
+"react-awesome-lightbox@npm:^1.8.1":
+  version: 1.8.1
+  resolution: "react-awesome-lightbox@npm:1.8.1"
+  peerDependencies:
+    react: ^16||^17
+  checksum: 3926139024a29d8a0c8fadb8c814d3039e76344885018c0b83d0188808d15f432d6b528daa8060ae92e3bd42672d967e3bb6ade56ba8861f177c5bba05b45082
   languageName: node
   linkType: hard
 
