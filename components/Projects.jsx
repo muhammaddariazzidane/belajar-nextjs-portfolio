@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronDoubleDownIcon } from "@heroicons/react/24/outline/";
-
 import React from "react";
 
 const Projects = () => {
