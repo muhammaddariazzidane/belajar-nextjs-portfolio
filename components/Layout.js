@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import Head from "next/head";
+import Footer from "./Footer";
 
 export default function Layout(props) {
   return (
@@ -12,7 +13,8 @@ export default function Layout(props) {
         <link rel="icon" href={props.icon} />
       </Head>
       <Nav />
-      <div className="relative selection:bg-red-600 selection:text-white" >{props.children}</div>
+      <div className="relative selection:bg-red-600 selection:text-white">{props.children}</div>
+      <Footer />
     </>
   );
 }

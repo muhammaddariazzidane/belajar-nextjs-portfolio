@@ -23,7 +23,7 @@ export default function Home() {
         <Projects />
         <Certificate />
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
       </Layout>
     </>
   );
