@@ -5,11 +5,11 @@ import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 const Certificate = () => {
   const SlideLeft = () => {
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft - 400;
+    slider.scrollLeft = slider.scrollLeft - 450;
   };
   const SlideRight = () => {
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft + 400;
+    slider.scrollLeft = slider.scrollLeft + 450;
   };
 
   return (

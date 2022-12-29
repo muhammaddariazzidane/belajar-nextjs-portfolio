@@ -12,23 +12,10 @@ const Contact = () => {
       (result) => {
         console.log(result.text);
         form.current.reset();
-        const Toast = Swal.mixin({
-          toast: true,
-          position: "bottom-end",
-          background: "#651fff",
-          color: "#fff",
-          showConfirmButton: false,
-          timer: 3000,
-          timerProgressBar: true,
-          didOpen: (toast) => {
-            toast.addEventListener("mouseenter", Swal.stopTimer);
-            toast.addEventListener("mouseleave", Swal.resumeTimer);
-          },
-        });
-
-        Toast.fire({
+        
+        Swal.fire({
           icon: "success",
-          title: "message successfully sent",
+          text: "Terimakasih, pesan berhasil terkirim",
         });
       },
       (error) => {

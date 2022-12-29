@@ -38,9 +38,27 @@ const Projects = () => {
                 <p className="text-gray-500 leading-6">After Watch App adalah aplikasi landing page yang menampilkan banyak film yang di ambil dari TMDB API</p>
               </div>
               <div className="flex space-x-2 ml-7 mb-5">
-                <Image className="transition-all duration-300 hover:rotate-6" src="/next.svg" alt="/" width={40} height={25} />
+                <Image className="transition-all duration-300 hover:rotate-6" src="/react.png" alt="/" width={25} height={25} />
                 <Image className="transition-all duration-300 hover:rotate-6 " src="/tailwind.svg" alt="/" width={25} height={25} />
                 <Image className="transition-all duration-300 hover:rotate-6 " src="/tmdb.svg" alt="/" width={40} height={25} />
+                <Image className="transition-all duration-300 hover:rotate-6 " src="/vercel.svg" alt="/" width={40} height={25} />
+              </div>
+            </div>
+          </Link>
+        </div>
+        <div className="w-full px-4 lg:w-1/4 ">
+          <Link href="/projects3" scroll>
+            <div className="mx-auto hover:cursor-pointer hover:-translate-y-4 transition-all duration-300 flex overflow-hidden flex-col justify-center bg-white rounded-2xl shadow-deep-purple-accent-400/40 shadow-xl">
+              <Image className="aspect-video w-full rounded-t-2xl" src="/chat.png" alt="/" width={1500} height={100} />
+              <div className="p-6">
+                <h1 className="text-2xl font-medium text-black pb-2">Kongko App</h1>
+                <p className="text-gray-500 leading-6">Kongko App adalah aplikasi untuk kongko atau ngobrol santuy bareng sama temen atau tetangga, project ini saya bikin untuk belajar cara menggunakan google firebase</p>
+              </div>
+              <div className="flex space-x-2 ml-7 mb-5">
+                <Image className="transition-all duration-300 hover:rotate-6" src="/react.png" alt="/" width={30} height={25} />
+                <Image className="transition-all duration-300 hover:rotate-6" src="/vite.png" alt="/" width={30} height={25} />
+                <Image className="transition-all duration-300 hover:rotate-6 " src="/tailwind.svg" alt="/" width={30} height={25} />
+                <Image className="transition-all duration-300 hover:rotate-6 " src="/firebase.png" alt="/" width={20} height={25} />
                 <Image className="transition-all duration-300 hover:rotate-6 " src="/vercel.svg" alt="/" width={40} height={25} />
               </div>
             </div>

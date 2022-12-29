@@ -22,7 +22,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className={`w-full selection:bg-red-600 selection:text-white z-[9999] bg-white ${shadow ? "shadow-xl transition-all duration-300 ease-in-out" : "transition-all duration-300 ease-in-out"} fixed top-0`}>
+      <nav className={`w-full selection:bg-red-600 selection:text-white z-[999] bg-white ${shadow ? "shadow-xl transition-all duration-300 ease-in-out" : "transition-all duration-300 ease-in-out"} fixed top-0`}>
         <div className="container px-4 py-4 mx-auto md:flex md:justify-between md:items-center">
           <div className="flex items-center justify-between">
             <div>
